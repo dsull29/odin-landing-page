@@ -1,0 +1,181 @@
+* {
+  /*  */
+}
+
+body {
+  /* width: 1200px; */
+  align-self: center;
+  background-color: slategrey;
+  margin: 0px;
+  width: auto;
+}
+
+.dark_background {
+  background-color: #1f2937;
+}
+
+/* Signup Button */
+
+.signup_button {
+  background-color:#3882F6;
+  color:#E5E7EB;
+  width: 100px;
+  text-align: center;
+  /* font-weight: bold; */
+  border-radius: 10px;
+  border: 2px solid white;
+}
+
+/* Hero Section */
+
+.hero {
+  display: flex;
+  padding: 40px 80px;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 40px;
+}
+
+.hero_item {
+  /* width: 400px; */
+  /* height: 200px; */
+  flex: 1;
+  padding: 1% 10%;
+  /* border: 2px solid red; */
+  align-self: center;
+}
+
+.hero_main {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #f9faf8;
+}
+
+.hero_subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero_image {
+  background-color: lawngreen;
+  width: 240px;
+  height: 120px;
+  padding: 40px;
+  text-align: center;
+}
+
+.hero_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero_text_item {
+    flex: 1;
+}
+
+/* Random section */
+
+.random {
+  margin: 20px 100px;
+}
+
+.random_header {
+  text-align: center;
+  padding: 0px;
+}
+
+.random_blocks {
+  display: flex;
+  gap: 40px;
+  padding: 40px;
+}
+
+.random_box {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  flex: 1 1 0%;
+  border: 4px solid teal;
+  background-color: dodgerblue;
+}
+
+/* Nav Bar */
+
+.nav_container {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.nav_item {
+  flex: 1;
+}
+
+.nav_links {
+  align-self: right;
+  /* width: 500px; */
+  flex: 1;
+  display: flex;
+
+}
+
+.nav_links a:link {
+  color: white;
+  text-decoration: none;
+}
+
+.nav_links a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.nav_links a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.nav_logo {
+  flex: 1 2 auto;
+  color: white;
+  font-weight: bold;
+  padding: 0px 100px;
+}
+
+/* Quote */
+.quote {
+  background-color: #E5E7EB;
+  padding: 2% 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote_text {
+  font-weight: lighter;
+    font-style: italic;
+  font-size: 20px;
+  flex: 1;
+  color: #1F2937
+  
+}
+
+.quote_author {
+  font-style: bold;
+  flex: 1;
+  text-align: right;
+}
+
+/* Footer section */
+
+.footer {
+    color: white;
+    margin: 2% 10%;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.footer_item{
+    flex: 1;
+    justify-content: space-evenly;
+}
